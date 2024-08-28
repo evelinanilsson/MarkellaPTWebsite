@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <nav>
         <div>
-         <img src='../public/images/logo.png' alt='logo'/> 
+         <img src='/images/logo.png' alt='logo'/> 
         </div>
         <ul>
             <li>Träning</li>

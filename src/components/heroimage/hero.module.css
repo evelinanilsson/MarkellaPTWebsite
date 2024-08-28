@@ -1,6 +1,6 @@
 /* The hero image */
 .herowrapper {
-    height: 100vh;
+    height: 70vh;
 }
 
 .heroimage {
@@ -8,7 +8,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pair-excersice-black.jpg");
   
     /* Set a specific height */
-    height: 80%;
+    height: 100%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -25,4 +25,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.heroh1 {
+   
+    font-size: 64px;
+}
+
+.heroh2{
+    color: #D650C7;
+}
+.heroh3 {
+    color: #ED9111
 }

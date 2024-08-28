@@ -1,0 +1,22 @@
+.trainingContainer{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.trainingCard {
+    
+    background-color: rgba(172, 168, 168, 0.37);
+    padding: 2em;
+}
+
+.locationContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+
+.locationDiv{
+    text-align: left;
+}
