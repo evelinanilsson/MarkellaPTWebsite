@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <main>
+    <body>
       <Navbar />
       <Heroimage />
       <div className='content'>
@@ -22,7 +22,7 @@ function App() {
           <p>.</p>
           <div className='images'>
             <img src='images/happy-group.jfif'></img>
-            <img src='images/lake-view.jpg'></img>
+            
             <img src='images/pushups.jfif'></img>
           </div>
         </div>
@@ -34,7 +34,7 @@ function App() {
         <Contact />
       </div>
      
-    </main>
+    </body>
   )
 }
 

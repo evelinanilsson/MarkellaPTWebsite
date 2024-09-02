@@ -1,13 +1,18 @@
+.trainingWrapper {
+    background-color: rgba(252, 252, 252, 0.479);
+    width: 100%;
+}
+
 .trainingContainer{
-    margin-top: 3em;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 1em;
 }
 
 .trainingCard {
     
-    background-color: rgba(172, 168, 168, 0.37);
+    
     padding: 2em;
 }
 

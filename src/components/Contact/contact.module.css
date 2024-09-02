@@ -1,3 +1,7 @@
+.contactSection{
+    position: relative;
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -16,4 +20,24 @@ textarea{
 
 button {
     padding: .5em;
+}
+
+.custom-shape-divider-top-1725299768 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1725299768 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1725299768 .shape-fill {
+    fill: #FFFFFF;
 }

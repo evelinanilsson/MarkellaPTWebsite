@@ -15,7 +15,7 @@ const About = () => {
         <img src='/images/markella.jfif' height={"400px"}></img>
        
       </div>
-      
+    
       
     </div>
   )

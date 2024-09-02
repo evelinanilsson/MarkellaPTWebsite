@@ -1,5 +1,25 @@
+.priceSection {
+    display: flex;
+}
+
+.priceWrapper {
+    background-color: white;
+    padding: 5em;
+}
+
 .pricelist {
  max-width: fit-content;
  text-align: left;
  line-height: 2em;
+}
+
+.free{
+    display: flex;
+    flex-direction: column;
+    background-color: #FCC24C;
+    padding: 2em;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
 }

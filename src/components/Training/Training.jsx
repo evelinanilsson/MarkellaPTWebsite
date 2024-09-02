@@ -3,7 +3,7 @@ import styles from './training.module.css'
 
 const Training = () => {
   return (
-    <div>
+    <div className={styles.trainingWrapper}>
       <h1>Träningspass</h1>
       <div className={styles.trainingContainer}>
       <div className={styles.trainingCard}>
@@ -26,6 +26,7 @@ const Training = () => {
         </div>
        
         <p className='cursive'>Ta med träningsmatta och vatten.</p>
+        <img src="./divider-shape.svg" height={20}></img>
       </div>
       <div className={styles.trainingCard}>
         <h3>Träna med Markella, senior</h3>
@@ -36,6 +37,7 @@ const Training = () => {
         <p><span><img src='./alternate-calendar.svg' height={20} /></span> Måndagar och onsdagar: 17:10 - 18:10</p>
         <p className='underlined'>Start 26/8</p>
         <p className='cursive'>Ta med träningsmatta och vatten.</p>
+        <img src="./divider-shape.svg" width={200}  height={20}></img>
       </div>
       <div className={styles.trainingCard}>
         <h3>Träna med Markella, sittgympa</h3>
