@@ -1,0 +1,6 @@
+.aboutContainer {
+    display: flex;
+    margin-top: 3em;
+    gap: 2em;
+    text-align: left;
+}

@@ -7,7 +7,7 @@ nav {
     justify-content: space-between;
 }
 
-ul {
+.navlist {
     list-style: none;
     display: flex;
     width: 80%;

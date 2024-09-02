@@ -12,6 +12,9 @@ body {
   margin-top: 3em;
   align-items: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
 }
 
 .underlined {
@@ -20,4 +23,14 @@ body {
 
 .cursive {
   font-style: italic;
+}
+
+.images {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.images img {
+  height: 200px;
 }

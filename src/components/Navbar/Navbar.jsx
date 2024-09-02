@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div>
          <img src='/images/logo.png' alt='logo'/> 
         </div>
-        <ul>
+        <ul className={styles.navlist}>
             <li>Träning</li>
             <li>Priser</li>
             <li>Om mig</li>

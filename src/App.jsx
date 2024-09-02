@@ -16,9 +16,21 @@ function App() {
       <Navbar />
       <Heroimage />
       <div className='content'>
+        <div>
+          <h1>Vill du komma igång med träning?</h1>
+          <p>Här hittar du omväxlande, roliga pass som är anpassningsbar till din nivå i form av gruppträning utomhus. Du har en legitimerad fysioterapeut som din tränare.</p>
+          <p>.</p>
+          <div className='images'>
+            <img src='images/happy-group.jfif'></img>
+            <img src='images/lake-view.jpg'></img>
+            <img src='images/pushups.jfif'></img>
+          </div>
+        </div>
+        
         <Training />
-        <About />
+       
         <Prices />
+        <About />
         <Contact />
       </div>
      

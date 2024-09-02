@@ -35,6 +35,7 @@ const Training = () => {
         <p><span><img src='./alternate-map-marker.svg' height={20} /></span> Malmö, Pildammsparken:</p>
         <p><span><img src='./alternate-calendar.svg' height={20} /></span> Måndagar och onsdagar: 17:10 - 18:10</p>
         <p className='underlined'>Start 26/8</p>
+        <p className='cursive'>Ta med träningsmatta och vatten.</p>
       </div>
       <div className={styles.trainingCard}>
         <h3>Träna med Markella, sittgympa</h3>
