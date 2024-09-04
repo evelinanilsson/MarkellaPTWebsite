@@ -1,6 +1,17 @@
 .aboutContainer {
     display: flex;
-    margin-top: 3em;
+    margin: 3em 0;
     gap: 2em;
     text-align: left;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    padding: 2em ;
+    justify-content: center;
+    align-items: center;
+}
+.aboutDiv {
+    padding: 2em 0;
+}
+@media screen {
+    
 }

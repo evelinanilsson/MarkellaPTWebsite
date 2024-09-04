@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './about.module.css'
+
 const About = () => {
   return (
-    <div className={styles.aboutContainer}>
-      <div>
+    <div id="about" className={styles.aboutContainer}>
+      <div className={styles.aboutDiv}>
         <h1>Din tränare</h1>
         <p>Hej! ​Vad roligt att se dig på min sida! :)</p>
         <p>Mitt namn är Markella Bampasi och det jag som kommer vara din tränare. Jag är fysioterapeut och när jag inte håller pass arbetar jag på Neurokirurgen i Lund.</p>

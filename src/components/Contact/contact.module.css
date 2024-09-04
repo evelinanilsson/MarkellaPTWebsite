@@ -1,15 +1,29 @@
-.contactSection{
-    position: relative;
+.contactSection {
+    background-color: #FCC24C;
+    width: 100%;
+    padding: 2em;
 }
 
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    gap: 3em;
+}
 .form{
     display: flex;
     flex-direction: column;
     width: 300px;
     padding: 1em;
     gap: 1em;
+    margin: auto;
+  
 }
 
+.contactDiv {
+
+}
 input {
     padding: .5em;
 }
@@ -22,22 +36,3 @@ button {
     padding: .5em;
 }
 
-.custom-shape-divider-top-1725299768 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1725299768 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-}
-
-.custom-shape-divider-top-1725299768 .shape-fill {
-    fill: #FFFFFF;
-}

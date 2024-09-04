@@ -2,7 +2,7 @@ body {
   font-family: "Red Hat Text", sans-serif;
   font-style: normal;
   background: rgb(255,255,255);
-  background: linear-gradient(152deg, rgba(255,255,255,1) 0%, rgba(255,190,228,1) 97%, rgba(255,120,199,1) 100%);
+  background: linear-gradient(152deg, rgba(255,255,255,1) 0%, rgba(255, 190, 228, 0.329) 97%, rgba(245, 153, 206, 0.171) 100%);
   margin: 0;
   padding: 0;
 }
@@ -34,4 +34,9 @@ body {
 
 .images img {
   height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
